@@ -2,6 +2,6 @@
 
 J. Thomas
 
-* [Tests](./reports/tests/test/)
-* [JavaDoc](./reports/javadoc/)
+* [Tests](./tests/test/)
+* [JavaDoc](./javadoc/)
 * [PMD Static Analysis](./pmd/main.html)
