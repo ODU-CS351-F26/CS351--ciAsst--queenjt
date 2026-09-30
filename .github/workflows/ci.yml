@@ -3,6 +3,9 @@ name: CI - build and test
 on:                                
       push:
         branches: [ main ]
+  
+permissions:
+  contents: write
 
 jobs:
       build:                           
