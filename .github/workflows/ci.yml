@@ -20,3 +20,9 @@ jobs:
           run: chmod +x gradlew              
         - name: Build and test
           run: ./gradlew reports
+
+        - name: Deploy
+          uses: JamesIves/github-pages-deploy-action@v4.3.4  
+          with:
+            branch: gh-pages                                 
+            folder: build/reports                            
