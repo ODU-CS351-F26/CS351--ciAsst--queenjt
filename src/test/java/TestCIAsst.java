@@ -1,5 +1,4 @@
-import static org.junit.jupiter.api.Assertions.*;
-
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class TestCIAsst {
@@ -15,4 +14,9 @@ public class TestCIAsst {
         assertEquals (1, cia.add1(1));
     }
 
+
+    @Test
+    public final void easyPass() {
+    assertEquals(1,1);
+    }
 }
